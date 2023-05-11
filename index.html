@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            background-color: grey;
+            padding-bottom: 4vh;
+        }
+        #container{
+            background-color: #c8b4bc;
+            width: 75%;
+            height: auto;
+            margin: 3vh auto 0 auto;
+        }
+        #container>#nav{
+            height: 3vh;
+            width: 100%;
+            padding: 8px;
+            margin-left: 1%;
+        }
+        nav>a{
+            text-decoration: none;
+            color: grey;
+            padding: 13px;
+            font-size: 18px;
+        }
+        #contain-grid{
+            box-sizing: border-box;
+            grid-gap: 8px;
+            border: 10px solid white;
+            background-color: white;
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(5, auto);
+            grid-template-rows: repeat(16, auto);
+            padding: -10px;
+        }
+        #contain-grid > img{
+            height: 100%;
+            width: 100%;
+        }
+        #contain-grid>#one{
+            grid-column: 1/5;
+            grid-row: 1/5;
+        }
+        #contain-grid>#two{
+            grid-column: 5/6;
+            grid-row: 1/2;
+        }
+        #contain-grid>#three{
+            grid-column: 5/6;
+            grid-row: 2/3;
+        }
+        #contain-grid>#four{
+            grid-column: 5/6;
+            grid-row: 3/5;
+        }
+        #contain-grid>#five{
+            grid-column: 1/3;
+            grid-row: 5/9;
+        }
+        #contain-grid>#six{
+            grid-column: 3/4;
+            grid-row: 5/9;
+        }
+        #contain-grid>#seven{
+            grid-column: 4/5;
+            grid-row: 5/9;
+        }
+        #contain-grid>#eight{
+            grid-column: 5/6;
+            grid-row: 5/9;
+        }
+        #contain-grid>#nine{
+            grid-column: 1/2;
+            grid-row: 9/13;
+        }
+        #contain-grid>#ten{
+            grid-column: 2/4;
+            grid-row: 9/12;
+        }
+        #contain-grid>#eleven{
+            grid-column: 4/5;
+            grid-row: 9/12;
+        }
+        #contain-grid>#twelve{
+            grid-column: 5/6;
+            grid-row: 9/12;
+        }
+        #contain-grid>#thirteen{
+            grid-column: 1/2;
+            grid-row: 13/14;
+        }
+        #contain-grid>#fourteen{
+            grid-column: 2/3;
+            grid-row: 12/14;
+        }
+        #contain-grid>#fifteen{
+            grid-column: 3/5;
+            grid-row: 12/13;
+        }
+        #contain-grid>#sixteen{
+            grid-column: 5/6;
+            grid-row: 12/13;
+        }
+        #contain-grid>#seventeen{
+            grid-column: 3/4;
+            grid-row: 13/14;
+        }
+        #contain-grid>#eighteen{
+            grid-column: 4/5;
+            grid-row: 13/14;
+        }
+        #contain-grid>#nineteen{
+            grid-column: 5/6;
+            grid-row: 13/14;
+        }
+        #contain-grid>#twenty{
+            grid-column: 1/2;
+            grid-row: 14/16;
+        }
+        #contain-grid>#twenty-one{
+            grid-column: 2/3;
+            grid-row: 14/16;
+        }
+        #contain-grid>#twenty-two{
+            grid-column: 5/6;
+            grid-row: 15/16;
+            justify-self: end;
+            align-self: end;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="nav">
+            <nav>
+                <a href="./index.html">Enter Site</a>
+                <a href="./index.html">My Account</a>
+                <a href="./index.html">Track Orders</a>
+                <a href="./index.html">Contact Info</a>
+            </nav>
+        </div>
+        <div id="contain-grid">
+            <img src="./images/ce_logo.png" id="one">
+            <img src="./images/ce_image01.png" id="two">
+            <img src="./images/ce_image02.png" id="three">
+            <img src="./images/ce_image03.png" id="four">
+            <img src="./images/ce_image04.png" id="five">
+            <img src="./images/ce_image05.png" id="six">
+            <img src="./images/ce_image06.png" id="seven">
+            <img src="./images/ce_image07.png" id="eight">
+            <img src="./images/ce_image08.png" id="nine">
+            <img src="./images/ce_image09.png" id="ten">
+            <img src="./images/ce_image10.png" id="eleven">
+            <img src="./images/ce_image11.png" id="twelve">
+            <img src="./images/ce_image12.png" id="thirteen">
+            <img src="./images/ce_image13.png" id="fourteen">
+            <img src="./images/ce_image14.png" id="fifteen">
+            <img src="./images/ce_image15.png" id="sixteen">
+            <img src="./images/ce_image16.png" id="seventeen">
+            <img src="./images/ce_image17.png" id="eighteen">
+            <img src="./images/ce_image18.png" id="nineteen">
+            <img src="./images/ce_image19.png" id="twenty">
+            <img src="./images/ce_image20.png" id="twenty-one">
+            <div id="twenty-two">Constume Expressions<br>3411 Torrence Dr.<br>Rockville. MD 20850</div>
+        </div>
+    </div>
+</body>
+</html>
